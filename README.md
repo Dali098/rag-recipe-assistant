@@ -1,6 +1,6 @@
 # RAG Recipe Assistant
 
-A small Retrieval-Augmented-Generation (RAG) project that answers cooking questions using a local markdown dataset of recipes.  
+A small RAG project that answers cooking questions using a local markdown dataset of recipes.  
 The system uses embeddings, ChromaDB vector search, and LLM for answer generation.
 
 ---
@@ -48,9 +48,3 @@ streamlit run app.py
 - ChromaDB
 - Streamlit
 - Embeddings + LLM
-
-## Notes
-
-- .env is ignored for safety — add your OPENAI_API_KEY manually
-- Dataset is intentionally small for demo purposes
-- Designed as an educational RAG example for beginners

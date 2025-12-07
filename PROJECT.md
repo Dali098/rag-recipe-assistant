@@ -54,12 +54,11 @@ Architecture consists of two stages:
 
 Run:
 
-```bash
 python -m src.embed_data     # generate embeddings
 streamlit run app.py         # launch UI
 # or
 python -m src.rag_chat       # CLI chat mode
-```
+
 ---
 
 ## 6. Requirements
